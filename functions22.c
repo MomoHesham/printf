@@ -7,15 +7,15 @@
  * @buffer: Buffer array to handle print
  * @flags:  Calculates flags
  * @w: get width
- * @p: presicion 
- * @size: Size 
+ * @p: presicion
+ * @size: Size
  * Return: Number of chars printed.
  */
 int print_pointer(va_list list, char buffer[],
 	int flags, int w, int p, int size)
 {
 	char plus_c = 0, paddings = ' ';
-	int ind = BUFF_SIZE - 2, length = 2, paddings_begins = 1; 
+	int ind = BUFF_SIZE - 2, length = 2, paddings_begins = 1;
 	unsigned long num_address;
 	char mapping[] = "0123456789abcdef";
 	void *address = va_arg(list, void *);
@@ -59,8 +59,8 @@ int print_pointer(va_list list, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates  flags
  * @w: get w
- * @p: p 
- * @size: Size 
+ * @p: p
+ * @size: Size
  * Return: Number of chars printed
  */
 int print_non_printable(va_list list, char buffer[],
@@ -99,8 +99,8 @@ int print_non_printable(va_list list, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates  flags
  * @w: get w
- * @p: p 
- * @size: Size 
+ * @p: p
+ * @size: Size
  * Return: Numbers of chars printed
  */
 
@@ -142,8 +142,8 @@ int print_reverse(va_list list, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates  flags
  * @w: get w
- * @p: p 
- * @size: Size 
+ * @p: p
+ * @size: Size
  * Return: Numbers of chars printed
  */
 int print_rot13strning(va_list list, char buffer[],
