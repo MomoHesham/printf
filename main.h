@@ -25,12 +25,12 @@ struct form
 {
 	char form;
 	int (*f)(va_list, char[], int, int, int, int);
-}
+};
 
 /**
- * typedef struct form form_t - struct op
+ * form_t - typedef for struct form
  * @form: the format
- * @form_t: the function associated
+ * @form_t: the function associateed
  */
 typedef struct form form_t;
 
