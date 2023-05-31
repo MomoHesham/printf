@@ -137,7 +137,7 @@ int print_reverse(va_list list, char buffer[],
 }
 /************************* PRINT A STRnING IN ROT13 *************************/
 /**
- * print_rot13strning - Print a strning in rot13.
+ * print_rot13string - Print a strning in rot13.
  * @list: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates  flags
@@ -146,7 +146,7 @@ int print_reverse(va_list list, char buffer[],
  * @size: Size
  * Return: Numbers of chars printed
  */
-int print_rot13strning(va_list list, char buffer[],
+int print_rot13string(va_list list, char buffer[],
 	int flags, int w, int p, int size)
 {
 	char x;
