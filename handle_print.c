@@ -47,3 +47,20 @@ int handle_print(const char *form, int *index, va_list list, char buffer[],
 	}
 	return (printed_c);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
